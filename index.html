@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefas LocalStorage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="task-app">
+      <section class="intro">
+        <p class="eyebrow">Portfolio project 03</p>
+        <h1>Organizador de tarefas</h1>
+        <p>
+          Uma lista simples para planejar estudos, projetos e pequenas entregas
+          com dados salvos no navegador.
+        </p>
+      </section>
+
+      <section class="stats-grid" aria-label="Resumo de tarefas">
+        <article>
+          <span>Total</span>
+          <strong id="totalCount">0</strong>
+        </article>
+        <article>
+          <span>Pendentes</span>
+          <strong id="pendingCount">0</strong>
+        </article>
+        <article>
+          <span>Concluidas</span>
+          <strong id="doneCount">0</strong>
+        </article>
+      </section>
+
+      <section class="board">
+        <article class="panel">
+          <h2>Nova tarefa</h2>
+          <form id="taskForm" class="task-form">
+            <label>
+              <span>Tarefa</span>
+              <input id="taskInput" type="text" placeholder="Ex: melhorar README" required />
+            </label>
+            <label>
+              <span>Prioridade</span>
+              <select id="priorityInput">
+                <option value="alta">Alta</option>
+                <option value="media" selected>Media</option>
+                <option value="baixa">Baixa</option>
+              </select>
+            </label>
+            <button type="submit">Adicionar tarefa</button>
+          </form>
+        </article>
+
+        <article class="panel task-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Lista</p>
+              <h2>Minhas tarefas</h2>
+            </div>
+            <div class="filter-group" aria-label="Filtros">
+              <button class="filter active" type="button" data-filter="all">Todas</button>
+              <button class="filter" type="button" data-filter="pending">Pendentes</button>
+              <button class="filter" type="button" data-filter="done">Concluidas</button>
+            </div>
+          </div>
+          <ul id="taskList" class="task-list"></ul>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
