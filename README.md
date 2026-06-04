@@ -6,6 +6,10 @@ Aplicacao de tarefas com cadastro, conclusao, filtros e persistencia no navegado
 
 Praticar CRUD no front-end, manipulacao de estado, eventos, filtros e armazenamento local.
 
+## Demo
+
+Link: https://prgvvheitor.github.io/tarefas-localstorage/
+
 ## Funcionalidades
 
 - Criar tarefas com prioridade.
@@ -31,4 +35,3 @@ Abra o arquivo `index.html` no navegador.
 - Adicionar datas.
 - Permitir arrastar para ordenar.
 - Publicar no GitHub Pages.
-
