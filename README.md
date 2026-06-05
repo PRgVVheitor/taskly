@@ -1,6 +1,6 @@
-# Tarefas LocalStorage
+# Taskly
 
-Aplicacao de tarefas com cadastro, conclusao, filtros e persistencia no navegador.
+Organizador de tarefas com cadastro, conclusao, filtros e persistencia no navegador.
 
 ## Objetivo
 
@@ -8,7 +8,7 @@ Praticar CRUD no front-end, manipulacao de estado, eventos, filtros e armazename
 
 ## Demo
 
-Link: https://prgvvheitor.github.io/tarefas-localstorage/
+Link: https://prgvvheitor.github.io/taskly/
 
 ## Funcionalidades
 
